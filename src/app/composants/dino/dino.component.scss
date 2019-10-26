@@ -1,0 +1,12 @@
+.card{
+  display: table-caption;
+  border: 1px black solid;
+  border-radius: 10px;
+  justify-content: center;
+}
+.card > * {
+  width: 100%;
+}
+.check{
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+<h2>My dinossaure</h2>
+
+<div class="card">
+
+  <form [formGroup]="dino" (ngSubmit)='add()'>
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Name" type="text" formControlName="name">
+    </mat-form-field>
+
+
+    <mat-form-field class="example-full-width">
+      <input matInput type="date" formControlName="date">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Food" type="text" formControlName="food">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Family" type="text" formControlName="name">
+    </mat-form-field>
+
+    <div class="check">
+      <button mat-stroked-button>Ajouter</button>
+    </div>
+  </form>
+
+</div>
