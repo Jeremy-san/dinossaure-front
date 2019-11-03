@@ -1,0 +1,33 @@
+.example-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(248, 208, 157, 100.5);
+  background-image: url(https://static.hitek.fr/img/actualite/2018/06/19/fb_jurassicworld-fallenkingdom-785x505-860x450-c.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+.toggle{
+ align-self: flex-end;
+  border: solid 1px red;
+  box-shadow: brown 2px;
+}
+li{
+  list-style: none;
+  text-decoration: blink;
+}
+.styleLien{
+  text-decoration: none;
+  color: white;
+}
+
